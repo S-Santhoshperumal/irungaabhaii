@@ -8,6 +8,7 @@ router.register(r'availability', AvailabilityViewset)
 router.register(r'booking', BookingViewSet)
 router.register(r'cancel', CancellationViewSet)
 router.register(r'reserv', ReservationViewSet)
+router.register(r'contact', ContactViewset)
 
 
 urlpatterns = [

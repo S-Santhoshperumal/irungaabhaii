@@ -19,6 +19,10 @@ class AvailabilityViewset(viewsets.ModelViewSet):
      queryset = Availability.objects.all()
      serializer_class = AvailabilitySerializer
 
+class ContactViewset(viewsets.ModelViewSet):
+     queryset = Contact.objects.all()
+     serializer_class = ContactSerializer
+
 
 
 class BookingViewSet(viewsets.ModelViewSet):

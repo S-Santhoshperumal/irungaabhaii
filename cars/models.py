@@ -52,3 +52,9 @@ class Availability(models.Model):
     pickup_date = models.DateField()
     return_date = models.DateField()
     available_quantity = models.IntegerField()
+
+class Contact(models.Model):
+    name=models.CharField(max_length=20)
+    email=models.EmailField()
+    phonenum=models.IntegerField()
+    message=models.TextField()
